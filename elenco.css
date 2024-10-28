@@ -1,0 +1,358 @@
+@import url('https://fonts.cdnfonts.com/css/batman-forever');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'BatmanForeverOutline', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Início do cabeçalho*/
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+}   
+
+li:hover {
+    color: #d21617;
+    transform: scale(1.07);
+}
+
+#logo {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
+/*Fim de cabeçalho*/
+
+/*Início do main*/
+.banner-container {
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-container > img {
+    width: 100%;
+    height: 95%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container > h1 {
+    color: #d21617;
+    padding: 45px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.cast-container {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.target {
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+}
+
+.cast-content {
+    width: 100%;
+    height: 400px;
+    background-color: #d21617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card {
+    width: 20%;
+    height: 90%;
+    border-radius: 25px;
+    background-color: #d21617;
+    padding: 10px 10px 10px 100px;
+}
+
+/*Robert Pattinson*/
+#card-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: url(./Midias/card-1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.cast-description {
+    width: 80%;
+    height: 100%;
+    display: block;
+    padding: 40px 70px 40px 70px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.cast-description > h2, h3, p, a {
+    background-color: transparent;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+}
+
+.cast-description > h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.cast-description > h3 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.cast-description > p {
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.cast-description > p > a {
+    font-size: 1.2rem;
+    text-decoration: dashed;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cast-description > p > a:hover {
+    color: #000;
+    transform: scale(1.07);
+}
+
+/*Zoe Kravitz*/
+#card-2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: url(./Midias/card-2.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/*Jeffrey Wright*/
+#card-3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: url(./Midias/card-3.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/*Paul Dano*/
+#card-4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: url(./Midias/card-4.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/*Colin Farrell*/
+#card-5 {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: url(./Midias/card-5.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/*Matt Reeves*/
+#card-6 {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: url(./Midias/card-6.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+/*Fim do main*/
+
+/*Início do rodapé*/
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+}
+
+#dev-1 {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+#dev-2 {
+    margin-bottom: 5%;
+}
+
+#dev-2 > a {
+    color: #d21617;
+    font-family: 'BatmanForeverOutline', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#dev-2 > a:hover {
+    color: #fff;
+    transform: scale(1.7);
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Fim do rodapé*/
+
+@media(max-width: 768px) {
+    /* Início do cabeçalho*/
+    nav {
+        display: none;
+    }
+
+    #logo {
+        width: 300px;
+        height: auto;
+        margin-top: 90px;
+    }
+    /*Fim de cabeçalho*/
+
+    /*Início do main*/
+    .banner-container > h1 {
+        padding: 20px;
+        font-size: 2rem;
+    }
+
+    .cast-content {
+        height: 800px;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        height: 60%;
+        border-radius: 50px;
+        padding-top: 20px;
+    }
+
+    /*Robert Pattinson*/
+    #card-1 {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+    }
+
+    .cast-description {
+        width: 100%;
+        height: 40%;
+        padding: 10px;
+    }
+
+    .cast-description > h2 {
+        font-size: 2rem;
+    }
+
+    .cast-description > h3 {
+        font-size: 1.5rem;
+    }
+
+    .cast-description > p {
+        font-size: 1em;
+    }
+
+    .cast-description > p > a {
+        font-size: 0.8rem;
+    }
+
+    /*Zoe Kravitz*/
+    #card-2 {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+    }
+
+    /*Jeffrey Wright*/
+    #card-3 {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+    }
+    /*Paul Dano*/
+
+    #card-4 {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+    }
+
+    /*Colin Farrell*/
+    #card-5 {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+    }
+
+    /*Matt Reeves*/
+    #card-6 {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+    }
+    /*Fim do main*/
+    
+    /*Início do rodapé*/
+    .footer-navigation {
+        display: block;
+    }
+    /*Fim do rodapé*/
+}
