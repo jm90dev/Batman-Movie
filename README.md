@@ -7,4 +7,8 @@ Agradeço a Deus, à minha filha, à minha família e a todos os meus amigos por
 
 Agradeço também ao Professor Paulo Borges e a toda a equipe do curso Profissão Programador, pois, sem os ensinamentos e o apoio recebidos, este projeto prático não seria possível.
 
+Para visualizar o projeto na web, acessar:
+
+https://jm90dev.github.io/Batman-Movie/
+
  
