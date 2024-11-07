@@ -1,0 +1,245 @@
+@import url('https://fonts.cdnfonts.com/css/batman-forever');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'BatmanForeverOutline', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Início do cabeçalho*/
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+}   
+
+li:hover {
+    color: #d21617;
+    transform: scale(1.07);
+}
+
+#logo {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
+/*Fim de cabeçalho*/
+
+/*Início do main*/
+.movies-container {
+    width: 100%;
+    padding: 0 2%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movies-content {
+    max-width: 350px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+#movie-1 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/fa/34/6c/fa346c02ac9c43414a52b3b685de6b4d.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#movie-2 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/d0/ef/e1/d0efe1dd85bbd85f67aa91c1fb094306.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#movie-3 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/cc/1b/c8/cc1bc8db31a9856f112987a1d221e979.jpg);
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#movie-4 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/75/f3/4d/75f34d0b59e74d2013311955e44a6ad5.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#movie-5 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/cc/b6/2e/ccb62ee33a64764ae0dcbebbf008eaa9.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#movie-6 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/7c/22/cd/7c22cdb9ff1630555a4118b4c70ea15e.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#movie-7 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/78/58/58/7858584e0e540252618d7bfb1ef46804.jpg);
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#movie-8 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/5d/81/5d/5d815ddcd47e3ee55fb3e679bd250bcf.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#movie-9 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/736x/fb/5e/69/fb5e69d62a855d109bb2363406a95148.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#movie-10 {
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/1a/48/59/1a485965a937fccf402f441f949ef7ae.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.movies-content h2 {
+    margin-top: 10px;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+/*Fim do main*/
+
+/*Início do rodapé*/
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+}
+
+#dev-1 {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+#dev-2 {
+    margin-bottom: 5%;
+}
+
+#dev-2 > a {
+    font-family: "Anonymous Pro", monospace;
+    color: #ff0000;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#dev-2 > a:hover {
+    color: #61afef;
+    transform: scale(1.7);
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Fim do rodapé*/
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #logo {
+        width: 300px;
+        height: auto;
+        margin-top: 90px;
+    }
+
+    .const {
+        height: 100%;
+        margin-top: 70px;
+    }
+
+    h1 {
+        font-size: larger;
+    }
+}
